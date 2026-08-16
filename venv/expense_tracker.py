@@ -32,7 +32,7 @@ def get_user_expense():
             print(f"  {i + 1}. {category_name}")
 
         value_range = f"[1 - {len(expense_categories)}]"
-        selected_index = int(input(f"Enter a category number {value_range}:"))
+        selected_index = int(input(f"Enter a category number {value_range}:")) - 1
 
         break    
                
